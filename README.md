@@ -1,7 +1,7 @@
 # py_single_file_storage
 Store some information within the current .py file for the distribution of a single-source-file Python application.
 
-# Application Scenarios
+## Application Scenarios
 **py_single_file_storage** is a lightweight utility designed for storing persistent data directly within a single Python source file. It is specially optimized for distributing standalone, single-file Python applications where no external configuration files, databases, or auxiliary resources are desired.
 
 By embedding state and runtime data inside the `.py` file itself, this library enables scripts to retain information across executions — such as execution counters, user preferences, cached parameters, or one-time setup flags — without creating additional files on the filesystem. It works reliably in scripted environments while avoiding conflicts in interactive Python shells, making it ideal for portable tools, utility scripts, self-contained CLI programs, and lightweight deployment scenarios where clean distribution and minimal footprint are priorities.
